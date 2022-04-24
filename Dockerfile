@@ -1,5 +1,4 @@
-FROM anasty17/mltb:latest
-# FROM anasty17/mltb-oracle:latest
+FROM arshsisodiya/helioskirepo:public
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
